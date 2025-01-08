@@ -1,0 +1,113 @@
+/* Updated styles for better visibility and joyful UI */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #ff7eb3, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff758c;
+}
+
+label, input {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#text-display {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    min-height: 100px;
+    color: #333;
+}
+
+#text-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ff758c;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.stats {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background: #ff758c;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9a9e;
+}
+
+/* Result Modal Styles */
+#result-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+    width: 300px;
+}
+
+.modal-content h2 {
+    color: #ff758c;
+}
+
+#close-modal {
+    background: #ff758c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
